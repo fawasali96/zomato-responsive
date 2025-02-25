@@ -1,0 +1,49 @@
+@media screen and (max-width: 1200px) {
+    .search-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .app-container {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search-container {
+        width: 100%;
+    }
+    .app-container {
+       height: 100vh;
+    }
+    .phone {
+        width: 50%;
+        height: 50%;
+    }
+    .zomato-list {
+       flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .zomato-list {
+        flex-wrap: wrap;
+    }
+    .top-section {
+        flex-wrap: wrap;
+    }
+    .last-section {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .phone {
+        display: none;
+    }
+    .app-container{
+        height: fit-content;
+    }
+}
